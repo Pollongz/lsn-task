@@ -37,6 +37,7 @@ public class Main {
     private static void startProgram(int userChoice) {
         switch (userChoice) {
             case 1 -> DistinctElementsTask.run();
+            case 2 -> PairsTask.run();
         }
     }
 
