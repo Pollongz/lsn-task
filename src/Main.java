@@ -38,6 +38,7 @@ public class Main {
         switch (userChoice) {
             case 1 -> DistinctElementsTask.run();
             case 2 -> PairsTask.run();
+            case 3 -> GraphTask.run();
         }
     }
 
